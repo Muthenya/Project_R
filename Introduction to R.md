@@ -10,7 +10,8 @@ output:
 
 ## Intro to R
 ### First things first, we need to download and install the latest version of R and RStudio 
-#### You can download the latet version of R from http://cran.r-project.org #### RStudio can be dowloaded from http://rstudio.com/products/rstudio/download/
+#### You can download the latet version of R from http://cran.r-project.org
+#### RStudio can be dowloaded from http://rstudio.com/products/rstudio/download/
 ### The RStudio user interface (Script , Console, Environment and Plots)
 #### The RStudio interface is basically divided into four windows;
 - Console
