@@ -39,8 +39,8 @@ output:
 
 * 3--8
 * -7+5
-*$ 4^5$
-*$ \frac{1 - 1.08^{-3}}{0.08}$
+*$4^5$
+*$\frac{1 - 1.08^{-3}}{0.08}$
 
 ### Basic Functions in R
 ### Understanding the general principle of functions ,i.e, name of function and the arguments in brackets
