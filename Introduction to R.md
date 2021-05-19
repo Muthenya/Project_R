@@ -311,7 +311,7 @@ A %*% B
 A*B
 ```
 #### Row and Column sums are calculated using the rowSums and colSums functions:
-````{r}
+```{r}
 rowSums(A)
 colSums(A)
 ```
