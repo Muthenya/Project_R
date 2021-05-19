@@ -36,6 +36,7 @@ output:
 ```
 #### Exercise 1
 ####Use R to calculate the following:
+
 -3--8
 --7+5
 -$ 4^5 $
