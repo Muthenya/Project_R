@@ -34,7 +34,12 @@ output:
 5/0
 0/0
 ```
-####Exercise 1 from R Introduction 2 (Basic arithmetic)
+#### Exercise 1 from R Introduction 2 (Basic arithmetic)
+> Use R to calculate the following:
+3--8
+-7+5
+$ 4^5 $
+$ frac{1 - (1.08^-3)}{0.08} $
 
 ### Basic Functions in R
 ### Understanding the general principle of functions ,i.e, name of function and the arguments in brackets
