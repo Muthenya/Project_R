@@ -46,7 +46,7 @@ output:
 ### Understanding the general principle of functions ,i.e, name of function and the arguments in brackets
 ### Important to note the case sensitivity of R
 ### Important to note , ?function_name is very helpful in getting more info about a given function
-####?log or help(log)
+#### ?log or help(log)
 
 ```{r}
 log(1000, base = 10) ##logarithm to base 10
@@ -143,7 +143,14 @@ remove.packages("package_name")
 
 
 ### Types of Data in R
-#### Numeric(Double,Integer), Character, Logical, Complex and Raw
+#### Data in R can be;
+
+* Numeric(Double,Integer)
+* Character
+* Logical
+* Complex
+* Raw
+
 #### checking the type of data using the is. command and coercing using the as. command
 
 ```{r}
