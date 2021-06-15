@@ -254,14 +254,12 @@ v1 <- 1:2
 v + v1 ## Recycling in R; when one vector in an operation is shorter than the other
 ```
 
-#### Exercise 9
-
-
-
 ### Factors
-#### What is a factor? Factors are R's ways of storing categorical data
-#### When creating a factor we use the factor() function
-#### We use the str() function to view the levels of factors. Notice that the factors, by default, are in alphabetical order
+#### What is a factor?
+Factors are R's ways of storing categorical data
+When creating a factor we use the factor() function
+We use the str() function to view the levels of factors. Notice that the factors, by default, are in alphabetical order
+
 #### You can specify the order of the factors using the level() function, though it can give varying outcome. The best would be to specify the order when creating the factor
 ```{r}
 gender <- factor(c("male", "female", "female", "male"))
