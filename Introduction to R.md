@@ -39,8 +39,8 @@ output:
 
 * 3--8
 * -7+5
-*$4^5$
-*$\frac{1 - 1.08^{-3}}{0.08}$
+* $4^5$
+* $\frac{1 - 1.08^{-3}}{0.08}$
 
 ### Basic Functions in R
 ### Understanding the general principle of functions ,i.e, name of function and the arguments in brackets
@@ -59,6 +59,13 @@ factorial(0)
 choose(10,3)
 ```
 #### Exercise 2
+#### Use R to calculate the following:
+
+* 3×(2+5)
+* 8 ÷ 0
+* 10!
+* log(100)
+* $sin(5)$
 
 ### Getting help
 
@@ -84,7 +91,7 @@ source('~/Project R; Introduction to R.R', echo=TRUE)
 ```
 #### Exercise 4
 
-###Objects in R
+### Objects in R
 #### Storing data in R objects using <-
 #### = can also be used but it is mainly used to assign values to variables inn functions
 
