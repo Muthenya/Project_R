@@ -65,7 +65,7 @@ choose(10,3)
 * 8 ÷ 0
 * 10!
 * log(100)
-* $sin(5)$
+* $\sin(5)$
 
 ### Getting help
 
@@ -77,7 +77,14 @@ help(function_name)
 apropos("phrase")
 ```
 #### Exercise 3
+#### Use R to:
 
+* find the arguments of the choose function
+* find the help page for the choose function
+* run the examples for the choose function
+* find a list of all functions that start with “choose”
+* find a list of all functions which contain the word “choose”
+* find a list of all functions that have something to do with “choose”.
 
 ### The script window
 #### Creating a new script
@@ -92,8 +99,7 @@ source('~/Project R; Introduction to R.R', echo=TRUE)
 #### Exercise 4
 
 ### Objects in R
-#### Storing data in R objects using <-
-#### = can also be used but it is mainly used to assign values to variables inn functions
+#### Storing data in R objects using <-.The equals sign (=) can also be used but it is mainly used to assign values to variables inn functions
 
 ```{r}
 a = 5
@@ -120,6 +126,13 @@ rm(a)
 
 ```
 #### Exercise 5
+#### Use R to:
+
+* Store the values 5, 10, 15, 20 and 25 in the objects V, W, X, Y and Z, respectively.
+* Calculate V – W, V/W, X*Y, ln(Z), exp(W)
+* Remove the object V
+* Remove the objects W and X in one go.
+* Remove all the objects in the working memory.
 
 ### Workspaces (very important)
 #### checking of current directory
@@ -147,7 +160,11 @@ remove.packages("package_name")
 ```
 
 #### Exercise 7
+#### Use R to:
 
+* Choose another package and install, then load it.   Use the help pages to use one of its functions.
+* Unload the package.
+* Uninstall the package.
 
 ### Types of Data in R
 #### Data in R can be;
@@ -171,6 +188,8 @@ as.numeric(FALSE)
 ```
 
 #### Exercise 8
+
+
 
 ### Objects
 #### Atomic vectors, Matrices, Arrays, Lists and Data Frames
