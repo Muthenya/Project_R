@@ -391,6 +391,18 @@ eigen(A)$values # to obtain the values alone
 eigen(A)$vectors # to obtain the vectors alone
 
 ```
+#### Exercise 9
+#### Use R to:
+1. Create the matrix below
+$$\begin{equation*}
+C = 
+\begin{pmatrix}
+1 & 2 & 3 & 4 \\
+5 & 6 & 7 & 8 \\
+9 & 10 & 11 & 12
+\end{pmatrix}
+\end{equation*}$$
+
 ### Arrays
 #### Arrays are also a type of object in R. The array function is used to create an n-dimensional array.
 #### To use array, provide an atomic vector as the first argument, and a vector of dimensions as the second argument, called dim:
@@ -406,8 +418,9 @@ r
 my_list <- list(1:50,letters[1:10], list("my","list"))
 my_list
 ```
+
 ### Data Frames
-#### Data frames are two-dimensional objects like matrices but unlike matrices, they can contain different types of data. They are by far the most useful storage structure for data analysis. Data frames group vectors into a two-dimensional table. As a result, each column of a data frame can contain a different type of data but within a column every cell must be of the same type of data. Essentially, the columns contain data for a single variable and the rows represent a single observation.
+Data frames are two-dimensional objects like matrices but unlike matrices, they can contain different types of data. They are by far the most useful storage structure for data analysis. Data frames group vectors into a two-dimensional table. As a result, each column of a data frame can contain a different type of data but within a column every cell must be of the same type of data. Essentially, the columns contain data for a single variable and the rows represent a single observation.
 #### To create a data frame we use the data.frame function:
 ```{r}
 my_df <- data.frame(c("Gil","Vin","Olav","Cloe"),c(21,16,40,35),c("Female","Male","Male","Female"))
