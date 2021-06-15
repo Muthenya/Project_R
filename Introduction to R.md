@@ -189,11 +189,27 @@ as.numeric(FALSE)
 
 #### Exercise 8
 
+* Classify each of the following data types and use the is.command to check your answers in R:
+    * FALSE 
+    * “5”
+    * 5    
+    * 5+0i    
 
+* Determine whether each of the following would be true or false and Check your answers in R:
+    is.numeric(5+0i)
+    is.integer(5)
+    is.double(5L)
+    is.logical(0)
+
+* . What would be the answer to the following:
+    nchar(“hello”)
+    nchar(3.47)
+    nchar(FALSE)
+    nchar(3i‐2)
 
 ### Objects
 #### Atomic vectors, Matrices, Arrays, Lists and Data Frames
-#### Factors***
+#### Factors
 
 ### Atomic Vectors
 #### Creating Vectors
@@ -239,6 +255,8 @@ v + v1 ## Recycling in R; when one vector in an operation is shorter than the ot
 ```
 
 #### Exercise 9
+
+
 
 ### Factors
 #### What is a factor? Factors are R's ways of storing categorical data
